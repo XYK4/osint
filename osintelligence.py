@@ -4,6 +4,7 @@ print("")
 print("OSİNT MASTER PROFESSİONAL TOOL's")
 print("")
 print("[01] >> TEST SİTESİNİ AÇ")
+print("")
 choice = input("Bir seçenek girin: ")
 
 # 1. seçenek seçildiğinde YouTube'u aç

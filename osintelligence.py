@@ -1,6 +1,7 @@
 #PROGRAM 08.04.2025 / 22:05 Zaman ve Tarihleri içinde XYKA! Tarafından yapılmıştır.
 #PROGRAMın tüm Yazılımı ve Özelleştirilmesi XYKA! tarafından yapılmıştır.
 #Bu kodun İzinsiz bir şekilde alınıp özelleştirilmesi durumunda versiyon düşürme işlemi uygulanır.
+import webbrowser
 print("")
 print("__  ____   ___  __    _    _ ")
 print("\ \/ /\ \ / / |/ /   / \  | |")
@@ -57,6 +58,10 @@ if girisecenek == "1":
     print("[32] >> EVİDENCE CAPTURE")
     print("[33] >> TRAİNİNG")
     print("[34] >> XYKA!")
+    secim = input("Seçiminiz: ")
+
+    if secim == "1":
+        webbrowser.open("http://xyk4.com")
 
 
 
